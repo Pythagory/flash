@@ -7,5 +7,8 @@ echo 'Installing Drupal 8'
 chmod 644 docroot/sites/default/settings.php
 drush si -y --sites-subdir=default config_installer
 
+# Ensure "active" config directory exists
+mkdir -p config/active
+
 echo 'Creating initial demo users'
 create-demo-users
