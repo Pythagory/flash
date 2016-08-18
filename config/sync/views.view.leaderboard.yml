@@ -354,3 +354,58 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_nominee'
+  page_3:
+    display_plugin: page
+    id: page_3
+    display_title: 'Page 3'
+    position: 3
+    display_options:
+      display_extenders: {  }
+      path: home
+      header: {  }
+      defaults:
+        header: false
+        footer: false
+        pager: false
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<a href=\"/leaderboard\" class=\"btn btn-default\">View full leaderboard</a>\n\n<hr/>\n<a href=\"/node/add/recognition\" class=\"btn btn-default btn-lg\">Recognize a co-worker</a>"
+            format: full_html
+          plugin_id: text
+      pager:
+        type: mini
+        options:
+          items_per_page: 5
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+    cache_metadata:
+      max-age: 0
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_nominee'
