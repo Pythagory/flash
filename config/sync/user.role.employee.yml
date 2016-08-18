@@ -10,4 +10,3 @@ permissions:
   - 'create recognition content'
   - 'delete own recognition content'
   - 'edit own recognition content'
-  - 'bypass node access'
