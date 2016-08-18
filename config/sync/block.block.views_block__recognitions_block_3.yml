@@ -1,4 +1,4 @@
-uuid: 49014d96-6ae3-4388-bb49-2e1208280fc8
+uuid: 0ee10bf1-76ec-48a8-87db-8bdfbb747523
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - bootstrap
-id: views_block__recognitions_block_2
+id: views_block__recognitions_block_3
 theme: bootstrap
 region: content
-weight: -5
+weight: -6
 provider: null
-plugin: 'views_block:recognitions-block_2'
+plugin: 'views_block:recognitions-block_3'
 settings:
-  id: 'views_block:recognitions-block_2'
+  id: 'views_block:recognitions-block_3'
   label: ''
   provider: views
   label_display: visible
