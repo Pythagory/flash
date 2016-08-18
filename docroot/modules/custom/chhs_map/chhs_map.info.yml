@@ -1,5 +1,0 @@
-name: Residential Facilities Map
-description: Adds residential facilities map to page.
-package: Custom
-type: module
-core: 8.x

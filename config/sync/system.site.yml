@@ -1,11 +1,11 @@
 uuid: a624e584-0f38-4329-8b20-571ebffddd38
-name: 'Foster Hub'
+name: 'DHS FLASH'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
