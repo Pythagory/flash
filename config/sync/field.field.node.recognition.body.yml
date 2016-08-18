@@ -1,0 +1,22 @@
+uuid: 8a7cc17d-e4df-4066-84ca-d3b8c81417d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recognition
+  module:
+    - text
+id: node.recognition.body
+field_name: body
+entity_type: node
+bundle: recognition
+label: Message
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
