@@ -10,7 +10,7 @@ dependencies:
 id: default_block
 theme: bootstrap
 region: sidebar_second
-weight: null
+weight: -7
 provider: null
 plugin: default_block
 settings:

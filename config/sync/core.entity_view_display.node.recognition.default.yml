@@ -1,0 +1,26 @@
+uuid: 4160f1f7-c3de-4944-9934-de67f98e43aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recognition.body
+    - field.field.node.recognition.field_nominee
+    - node.type.recognition
+  module:
+    - user
+id: node.recognition.default
+targetEntityType: node
+bundle: recognition
+mode: default
+content:
+  field_nominee:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden:
+  body: true

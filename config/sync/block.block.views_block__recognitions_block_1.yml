@@ -1,0 +1,30 @@
+uuid: 2aa8788f-bae1-4b31-97f2-63266772eee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recognitions
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__recognitions_block_1
+theme: bootstrap
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:recognitions-block_1'
+settings:
+  id: 'views_block:recognitions-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
