@@ -4,9 +4,9 @@ favicon:
   url: 'http://172.17.0.4/themes/bootstrap/favicon.ico'
   use_default: true
 logo:
-  path: themes/bootstrap/logo.jpg
+  path: themes/bootstrap/logo.png
   url: ''
-  use_default: true
+  use_default: false
 schema: '8000'
 features:
   comment_user_picture: true
