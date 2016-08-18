@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro';
+
+/* Style override */
+
+body > * {
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color:  #173145!important;
+}
+
+.main-container h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25em; 
+}
+
+.main-container a {
+  color: #00578d!important;
+}
+
+.main-container a:hover, .main-container a:active {
+  color: #555!important;
+}
+
+body .main-container {
+  color: black;
+}
+
+/* menu */
+.navbar a {
+  color: #183853!important;
+}
+
+
+
