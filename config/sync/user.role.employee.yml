@@ -1,0 +1,12 @@
+uuid: 182d5cca-0922-4aa9-9740-ced2829f739d
+langcode: en
+status: true
+dependencies: {  }
+id: employee
+label: employee
+weight: -6
+is_admin: null
+permissions:
+  - 'create recognition content'
+  - 'delete own recognition content'
+  - 'edit own recognition content'

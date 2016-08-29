@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dhs.js": {
+      "files": [
+        "scripts/dhs.js"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "dhs-style.css": {
+      "files": [
+        "styles/dhs-style.scss"
+      ],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://172.17.0.4/"
+  }
+}

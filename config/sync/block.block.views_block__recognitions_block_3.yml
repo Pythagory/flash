@@ -1,0 +1,30 @@
+uuid: 0ee10bf1-76ec-48a8-87db-8bdfbb747523
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recognitions
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__recognitions_block_3
+theme: bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:recognitions-block_3'
+settings:
+  id: 'views_block:recognitions-block_3'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+    context_mapping: {  }
