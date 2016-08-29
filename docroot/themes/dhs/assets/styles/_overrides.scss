@@ -1,0 +1,107 @@
+// $todo these should be their own CSS files and only included when
+// specific Drupal libraries are used.
+@import "components/alert";
+@import "components/ajax";
+@import "components/field";
+@import "components/file";
+@import "components/filter";
+@import "components/form";
+@import "components/icon";
+@import "components/media";
+@import "components/navbar";
+@import "components/panel";
+@import "components/progress-bar";
+@import "components/table-drag";
+@import "components/tabs";
+@import "components/toolbar";
+@import "components/profile";
+@import "components/messages";
+
+// jQuery UI style overrides.
+@import "jquery-ui/autocomplete";
+
+ol, ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Footer.
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}
+
+// Help region.
+.region-help {
+  > .glyphicon {
+    font-size: $font-size-large;
+    float: left;
+    margin: -0.05em 0.5em 0 0;
+  }
+  .block {
+    overflow: hidden;
+  }
+}
+
+
+.help-block, .control-group .help-inline {
+  color: $gray-light;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+/* Style override */
+
+body > * {
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color:  #173145!important;
+}
+
+.main-container h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25em; 
+}
+
+.main-container a {
+  color: #00578d!important;
+}
+
+.main-container a:hover, .main-container a:active {
+  color: #555!important;
+}
+
+body .main-container {
+  color: black;
+}
+
+/* menu */
+.navbar a {
+  color: #183853!important;
+}
+
+
+
