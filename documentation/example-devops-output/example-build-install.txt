@@ -1,7 +1,7 @@
 \$ . bin?/activate 
 Bowline activated. Enter 'bowline' command for basic information
-]2;agile-california$ . bin/activate 
-\$ (agile-california) $ build
+]2;flash$ . bin/activate 
+\$ (flash) $ build
 # STARTING CONTAINERS
  Exit Status: 0
 # INSTALLING COMPOSER LIBRARIES
@@ -19,8 +19,8 @@ php  ~  172.17.0.4
 web  ~  172.17.0.5  http://172.17.0.5/
 Proxy:
 	Not active. (use 'invoke_proxy' to start)
-]2;agile-california$ build
-\$ (agile-california) $ initial-install 
+]2;flash$ build
+\$ (flash) $ initial-install 
 Installing Drupal 8
 Running 'drush si -y --sites-subdir=default config_installer' inside container, using uri: http://172.17.0.5/
 You are about to DROP all tables in your 'drupal' database. Do you want to continue? (y/n): y
@@ -35,8 +35,8 @@ Added role biological_parent role to biological-parent                          
 Added role foster_parent role to foster-parent                                                                                                                    [success]
 Added role case_worker role to case-worker                                                                                                                        [success]
 Added role case_manager role to case-manager                                                                                                                      [success]
-]2;agile-california$ initial-install 
-\$ (agile-california) $ drush st
+]2;flash$ initial-install 
+\$ (flash) $ drush st
 Running 'drush st' inside container, using uri: http://172.17.0.5/
  Drupal version                  :  8.1.1                                 
  Site URI                        :  http://172.17.0.5/                    

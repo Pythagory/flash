@@ -1,7 +1,7 @@
 \$ . bin/activate 
 Bowline activated. Enter 'bowline' command for basic information
-]2;agile-california$ . bin/activate 
-\$ (agile-california) $ run-tests 
+]2;flash$ . bin/activate 
+\$ (flash) $ run-tests 
 seleniumfirefox uses an image, skipping
 seleniumchrome uses an image, skipping
 Building seinterpreter
@@ -291,4 +291,4 @@ Added role case_worker role to case-worker                                      
 Added role case_manager role to case-manager                                                                                                                      [success]
 Stopping tests_seleniumchrome_1 ... 
 Stopping tests_seleniumfirefox_1 ... 
-Stopping tests_seleniumchrome_1 ... doneStopping tests_seleniumfirefox_1 ... done]2;agile-california$ run-tests 
+Stopping tests_seleniumchrome_1 ... doneStopping tests_seleniumfirefox_1 ... done]2;flash$ run-tests 
