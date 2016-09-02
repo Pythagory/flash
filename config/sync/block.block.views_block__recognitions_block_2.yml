@@ -1,6 +1,6 @@
 uuid: 49014d96-6ae3-4388-bb49-2e1208280fc8
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.recognitions
@@ -11,8 +11,8 @@ dependencies:
     - bootstrap
 id: views_block__recognitions_block_2
 theme: bootstrap
-region: '-1'
-weight: -6
+region: content
+weight: -5
 provider: null
 plugin: 'views_block:recognitions-block_2'
 settings:

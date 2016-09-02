@@ -1,17 +1,17 @@
 Started by remote host 54.209.231.248
-Building on master in workspace /var/jenkins_home/jobs/agile-california-deploy/workspace
+Building on master in workspace /var/jenkins_home/jobs/flash-deploy/workspace
 Wiping out workspace first.
 Cloning the remote Git repository
-Cloning repository https://github.com/CivicActions/agile-california.git
- > git init /var/jenkins_home/jobs/agile-california-deploy/workspace/agile-california # timeout=10
-Fetching upstream changes from https://github.com/CivicActions/agile-california.git
+Cloning repository https://github.com/CivicActions/flash.git
+ > git init /var/jenkins_home/jobs/flash-deploy/workspace/flash # timeout=10
+Fetching upstream changes from https://github.com/CivicActions/flash.git
  > git --version # timeout=10
- > git -c core.askpass=true fetch --tags --progress https://github.com/CivicActions/agile-california.git +refs/heads/*:refs/remotes/origin/*
- > git config remote.origin.url https://github.com/CivicActions/agile-california.git # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://github.com/CivicActions/flash.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/CivicActions/flash.git # timeout=10
  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
- > git config remote.origin.url https://github.com/CivicActions/agile-california.git # timeout=10
-Fetching upstream changes from https://github.com/CivicActions/agile-california.git
- > git -c core.askpass=true fetch --tags --progress https://github.com/CivicActions/agile-california.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/CivicActions/flash.git # timeout=10
+Fetching upstream changes from https://github.com/CivicActions/flash.git
+ > git -c core.askpass=true fetch --tags --progress https://github.com/CivicActions/flash.git +refs/heads/*:refs/remotes/origin/*
 Seen branch in repository origin/master
 Seen 1 remote branch
 Checking out Revision 54629986d0e0f2d3c8c361ce75c1a00d41bee403 (origin/master)
@@ -20,7 +20,7 @@ Checking out Revision 54629986d0e0f2d3c8c361ce75c1a00d41bee403 (origin/master)
  > git rev-list 32336b0d9dec7787e1a6903a9580cd6400ee93ab # timeout=10
 SSH: Connecting from host [jenkins]
 SSH: Connecting with configuration [docker-host] ...
-SSH: EXEC: STDOUT/STDERR from command [cd /var/jenkins_home/jobs/agile-california-deploy/workspace/agile-california
+SSH: EXEC: STDOUT/STDERR from command [cd /var/jenkins_home/jobs/flash-deploy/workspace/flash
 source ../.env
 ./bin/deploy agile-ca civicactions.com] ...
 [deploy] Attempting to create host 5462998-agile-ca.civicactions.com
@@ -42,7 +42,7 @@ To see how to connect your Docker Client to the Docker Engine running on this vi
 [deploy] Candidate Docker machine created. Waiting a few seconds before getting the IP and ID
 [deploy] Machine created at IP=54.218.10.222, INSTANCE_ID=i-368351ed.
 [deploy] Setting tag to 'candidate' for i-368351ed.
-Cloning into '/var/jenkins_home/jobs/agile-california-deploy/workspace/agile-california'...
+Cloning into '/var/jenkins_home/jobs/flash-deploy/workspace/flash'...
 Note: checking out '5462998'.
 You are in 'detached HEAD' state. You can look around, make experimental
 changes and commit them, and you can discard any commits you make in this

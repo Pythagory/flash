@@ -1,4 +1,4 @@
-# CHHS Foster Hub
+# DHS FLASH 
 
 ## Licence
 
@@ -16,8 +16,8 @@ The development environment is fully self-contained, and is based on Docker and 
 
 Clone the repository, and change to the project directory:
 ```bash
-git clone https://github.com/CivicActions/agile-california.git
-cd agile-california
+git clone https://github.com/CivicActions/flash.git
+cd flash
 ```
 
 If you are using Docker on Windows or OS X:
@@ -48,7 +48,7 @@ The tests run 2 suites (mobile and desktop viewports), first on Google Chrome an
 
 ### Test Development
 
-The tests use the open source [Selenium Builder](https://github.com/SeleniumBuilder/se-builder) Selenium 2 JSON test format, which is easy to version control and edit with the open source Selenium Builder Firefox extension (which can run/debug the tests manually). The tests are in the [tests](https://github.com/CivicActions/agile-california/tree/master/tests) directory.
+The tests use the open source [Selenium Builder](https://github.com/SeleniumBuilder/se-builder) Selenium 2 JSON test format, which is easy to version control and edit with the open source Selenium Builder Firefox extension (which can run/debug the tests manually). The tests are in the [tests](https://github.com/CivicActions/flash/tree/master/tests) directory.
 
 To run/build tests with the Firefox extension you will need to:
 
@@ -86,8 +86,8 @@ This deploys an instance of the frontend and an instance of the backend on Amazo
 
 Clone the repository, and change to the project directory:
 ```bash
-git clone https://github.com/CivicActions/agile-california.git
-cd agile-california
+git clone https://github.com/CivicActions/flash.git
+cd flash
 ```
 
 If you are using Docker on Windows or OS X:
@@ -136,7 +136,7 @@ If tests fail then the instance will be tagged as "failed" and kept online for d
 
 ## Continuous Delivery - Automating Testing and Deployment
 
-A sample Jenkins configuration is available in the [tests/automation](https://github.com/CivicActions/agile-california/tree/master/tests/automation/) directory. This will, when triggered (e.g. by a Slack command, Github push or tag push):
+A sample Jenkins configuration is available in the [tests/automation](https://github.com/CivicActions/flash/tree/master/tests/automation/) directory. This will, when triggered (e.g. by a Slack command, Github push or tag push):
 
 1. Report to Slack that a deploy has started.
 1. Deploy a candidate instance using the deploy script above.
@@ -146,4 +146,4 @@ A sample Jenkins configuration is available in the [tests/automation](https://gi
 
 ## Monitoring
 
-There is a monitoring system that you can install on a Docker host external to the deployed host. See [instructions](https://github.com/CivicActions/agile-california/tree/master/monitoring) for details.
+There is a monitoring system that you can install on a Docker host external to the deployed host. See [instructions](https://github.com/CivicActions/flash/tree/master/monitoring) for details.
